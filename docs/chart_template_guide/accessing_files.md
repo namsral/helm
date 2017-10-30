@@ -164,7 +164,7 @@ data:
 
 ## Secrets
 
-When working with a Secret resource, you can import a file and have the template base-64 encode it for you:
+When working with a Secret resource, you can import a file and have the template base-64 encode it for you to ensure content integrity:
 
 ```yaml
 apiVersion: v1
